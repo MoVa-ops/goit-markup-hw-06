@@ -362,7 +362,10 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    image-set(
+      url(../images/mobile/bg-mobile1x.jpg) 1x,
+      url(../images/mobile/bg-mobile@2x.jpg) 2x
+    );
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -414,7 +417,10 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      image-set(
+        url(../images/tablet/bg-tablet1x.jpg) 1x,
+        url(../images/tablet/bg-tablet@2x.jpg) 2x
+      );
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -456,7 +462,10 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      image-set(
+        url(../images/people-office.jpg) 1x,
+        url(../images/bg-pc@2x.jpg) 2x
+      );
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

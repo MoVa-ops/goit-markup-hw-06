@@ -173,8 +173,19 @@
             <div class="container">
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list">
-                    <li class="team-item"><img src="./images/teamcard1.jpg" alt="Photo of Mark Guerrero" width="264"
-                            height="260">
+                    <li class="team-item">
+                        <picture>
+                            <source srcset="
+                            ./images/teamcard1.jpg  1x, 
+                            ./images/mark-pc@2x.jpg 2x" media="(min-width: 1158px)" />
+                            <source srcset="
+                                ./images/tablet/mark-tb1x.jpg  1x, 
+                                ./images/tablet/mark-tb@2x.jpg 2x" media="(min-width: 768px)" />
+                            <source srcset="
+                                ./images/mobile/mark-mb1x.jpg  1x, 
+                                ./images/mobile/mark-mb@2x.jpg 2x" media="(max-width: 767px)" />
+                            <img src="./images/teamcard1.jpg" alt="Photo of Mark Guerrero" width="264" height="260">
+                        </picture>
                         <div class="team-description">
                             <h3 class="team-name">Mark Guerrero</h3>
                             <p class="team-text">Product Designer</p>
@@ -210,8 +221,19 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team-item"><img src="./images/teamcard2.jpg" alt="Photo of Tom Ford" width="264"
-                            height="260">
+                    <li class="team-item">
+                        <picture>
+                            <source srcset="./images/teamcard2.jpg 1x,
+                            ./images/tom-pc@2x.jpg 2x
+                            " media="(min-width 1158px)" />
+                            <source srcset="./images/tablet/tom-tb1x.jpg 1x,
+                                                        ./images/tablet/tom-tb@2x.jpg 2x
+                                                        " media="(min-width 768px)" />
+                            <source srcset="./images/mobile/tom-mb1x.jpg 1x,
+                            ./images/mobile/tom-mb@2x.jpg 2x
+                            " media="(max-width 767px)" />
+                            <img src=" ./images/teamcard2.jpg" alt="Photo of Tom Ford" width="264" height="260">
+                        </picture>
                         <div class="team-description">
                             <h3 class="team-name">Tom Ford</h3>
                             <p class="team-text">Frontend Developer</p>
@@ -247,8 +269,21 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team-item"><img src="./images/teamcard3.jpg" alt="Photo of Camila Garcia" width="264"
-                            height="260">
+                    <li class="team-item">
+                        <picture>
+                            <source srcset="./images/teamcard3.jpg 1x,
+                            ./images/camila-pc@2x.jpg 2x
+                            " media="(min-width: 1158px)" />
+                            <source srcset="
+                            ./images/tablet/camila-tb1x.jpg 1x,
+                            ./images/tablet/camila-tb@2x.jpg 2x
+                            " media="(min-width: 768px)" />
+                            <source srcset="
+                            ./images/mobile/camila-mb1x.jpg 1x,
+                            ./images/mobile/camila-mb@2x.jpg 2x
+                            " media="(max-width: 767px)" />
+                            <img src="./images/teamcard3.jpg" alt="Photo of Camila Garcia" width="264" height="260">
+                        </picture>
                         <div class="team-description">
                             <h3 class="team-name">Camila Garcia</h3>
                             <p class="team-text">Marketing</p>
@@ -284,8 +319,21 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team-item"><img src="./images/teamcard4.jpg" alt="Photo of Daniel Wilson" width="264"
-                            height="260">
+                    <li class="team-item">
+                        <picture>
+                            <source srcset="./images/teamcard4.jpg 1x,
+                                                    ./images/daniel-pc@2x.jpg 2x
+                                                    " media="(min-width: 1158px)" />
+                            <source srcset="
+                                                    ./images/tablet/daniel-tb1x.jpg 1x,
+                                                    ./images/tablet/daniel-tb@2x.jpg 2x
+                                                    " media="(min-width: 768px)" />
+                            <source srcset="
+                                                    ./images/mobile/daniel-mb1x.jpg 1x,
+                                                    ./images/mobile/daniel-mb@2x.jpg 2x
+                                                    " media="(max-width: 767px)" />
+                            <img src="./images/teamcard4.jpg" alt="Photo of Daniel Wilson" width="264" height="260">
+                        </picture>
                         <div class="team-description">
                             <h3 class="team-name">Daniel Wilson</h3>
                             <p class="team-text">UI Designer</p>
